@@ -1,0 +1,79 @@
+*{
+    font-family: "Kalam", cursive;
+}
+header{
+    background-color: #2D4263;
+    justify-content: center;
+   
+}
+header a{
+    text-align: center;
+}
+.header-nav{
+    margin-left: 35%;
+    margin-right: 25%
+}
+ header span{
+    color:#ECDBBA;
+    font-size: 55px;
+ }
+
+ #habilidades{
+    background-color: #ECDBBA;
+ }
+ 
+.nav-item a{
+    color:#ECDBBA;
+   font-size: 120%; 
+}
+
+.nav-item a:visited{
+    color:#ECDBBA;
+
+}
+.nav-item a:hover{
+    color:#ECDBBA;
+   }
+#boton-nav{
+    background-color: #ECDBBA;
+   
+}
+.bi{
+    color: #2D4263;
+  
+    font-size: 27px;
+
+}
+.img-proyecto1{
+    background-image: url('assets/clon-pinterest.png');
+    background-size: 440px;
+    background-repeat: no-repeat;
+    background-blend-mode:screen ;
+}
+.img-proyecto1 .d-flex.flex-column {
+    position: relative;
+    z-index: 2;
+}
+.img-proyecto2{
+    background-image: url('assets/CAP.png');
+    background-size: 440px;
+    background-repeat: no-repeat;
+    background-blend-mode:screen ;
+}
+footer .icon-footer{
+    justify-content: center;
+}
+
+footer{
+    background-color: #2D4263;
+}
+footer .icon-footer i{
+    color:#C84B31;
+}
+
+footer p a{
+    color:white;
+}
+#app{
+    color:#2D4263;
+}

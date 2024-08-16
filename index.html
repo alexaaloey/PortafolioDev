@@ -1,0 +1,272 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+<!--GOOGLE FONT-->
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Kalam:wght@300;400;700&display=swap" rel="stylesheet">
+  <!--VINCULO A LA HOJA DE ESTILOS DE BOOTSTRAP-->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+    <!--ICONOS BOOTSTRAP-->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
+
+
+    <!--HOJ DE ESTILOS-->
+    <link rel="stylesheet" href="style.css">
+
+  <title>Alexa Chame</title>
+</head>
+
+<body>
+  
+  <header class="d-flex flex-wrap justify-content-between py-3 mb-4 border-bottom">
+    <a href="/" class="d-flex align-items-center mb-3 mb-md-0 me-md-auto link-body-emphasis text-decoration-none text-center">
+      <svg class="bi me-2" width="40" height="32">
+        <use xlink:href="#bootstrap"></use>
+      </svg>
+      <span class="fs-4">Mi portafolio: Alexa Chamé</span>
+    </a>
+  
+    <ul class="nav header-nav nav-pills">
+      <li class="nav-item"><a id="boton-nav" href="#about-me" class="nav-link active" aria-current="page">About me</a></li>
+      <li class="nav-item"><a href="#habilidades" class="nav-link">Habilidades</a></li>
+      <li class="nav-item"><a href="#proyectos" class="nav-link">Proyectos</a></li>
+      <li class="nav-item"><a href="#testimonios" class="nav-link">Testimonios</a></li>
+      <li class="nav-item"><a href="#contacto" class="nav-link">Contacto</a></li>
+    </ul>
+  </header>
+  
+
+  
+  <main>
+
+    <section id="about-me">
+      <div class="container col-xxl-8 px-4 py-5">
+        <div class="row flex-lg-row-reverse align-items-center g-5 py-5">
+          <div class="col-10 col-sm-8 col-lg-6">
+            <img src="assets/yop.jpg" class="d-block mx-lg-auto img-fluid" alt="Bootstrap Themes" width="300" height="300" loading="lazy" style="border-radius: 50%;">
+
+          </div>
+          <div class="col-lg-6">
+            <h1 class="display-5 fw-bold text-body-emphasis lh-1 mb-3">Alexa Chamé</h1>
+            <div id="app"></div>
+
+            <p class="lead">Hola soy Alexa,estudio ingenieria en Sistemas Computacionales;
+              actualmente me encuentro realizando el curso "TC PRO DEVELOPER WEB FRONT-END" de Tecnolochicas Pro, esto
+              será un portaforlio con mis datos acerca de mi incursión, aprendizaje y proyectos futuros en el mundo del
+              desarrollo web.</p>
+
+              <div class="d-grid gap-2 d-md-flex justify-content-md-start">
+                <a href="https://drive.google.com/file/d/1LDWEvILWU3jJikEqfVpQtX80xeqfCzfu/view?usp=sharing" target="_blank" class="btn btn-lg px-4 me-md-2" style="background-color:#ECDBBA">Mi CV</a>
+              </div>
+              
+          </div>
+        </div>
+      </div>
+ 
+    </section>
+
+    <section id="habilidades">
+      <div class="container px-4 py-5" id="hanging-icons">
+        <h2 class="pb-2 border-bottom">Habilidades</h2>
+        <div class="row g-4 py-5 row-cols-1 row-cols-lg-3">
+
+          <div class="col d-flex align-items-start">
+            <div
+              class="icon-square text-body-emphasis  d-inline-flex align-items-center justify-content-center fs-4 flex-shrink-0 me-3">
+              <i class="bi bi-laptop"></i>
+            </div>
+            <div>
+              <h3 class="fs-2 text-body-emphasis">Desarrollo Web</h3>
+              <p>He creado sitios web responsivos aplicando los conocimientos obtenidos durante el bootcamp de Tecnolochicas PRO</p>
+             
+            </div>
+          </div>
+          <div class="col d-flex align-items-start">
+            <div
+              class="icon-square text-body-emphasis bg-body-secondary d-inline-flex align-items-center justify-content-center fs-4 flex-shrink-0 me-3">
+              <i class="bi bi-backpack-fill"></i>
+            </div>
+            <div>
+              <h3 class="fs-2 text-body-emphasis">Estudiante</h3>
+              <p>Actualmente estoy estudiando la carrera de Ingenieria en Sistemas Computacionales en el Tecnologico Nacional de México Campus Tuxtla Gutierrez, cursando mis ultimos semestres.</p>
+              
+            </div>
+          </div>
+          <div class="col d-flex align-items-start">
+            <div
+              class="icon-square text-body-emphasis bg-body-secondary d-inline-flex align-items-center justify-content-center fs-4 flex-shrink-0 me-3">
+              <i class="bi bi-person-check-fill"></i>
+            </div>
+            <div>
+              <h3 class="fs-2 text-body-emphasis">Trabajo en equipo</h3>
+              <p>Tengo la capacidad de trabajar en equipo de manera eficaz, con compromiso y responsabilidad, he participado en pequeños proyectos de la comunidad tecnologica durante mi periodo en la carrera.</p>
+             
+            </div>
+          </div>
+        </div>
+      </div>
+
+    </section>
+
+    <section id="proyectos">
+      <div class="container px-4 py-5" id="custom-cards">
+        <h2 class="pb-2 border-bottom">Proyectos</h2>
+
+        <div class="row row-cols-1 row-cols-lg-3 align-items-stretch g-4 py-5">
+
+          <div class="col">
+            <div class="img-proyecto1 card card-cover h-59 overflow-hidden text-bg-secondary rounded-4 shadow-lg">
+              <div class="d-flex flex-column h-100 p-5 pb-3 text-dark text-shadow-1">
+                <h3 class="pt-5 mt-5 mb-4 display-6 lh-1 fw-bold">
+                  <a href="https://github.com/alexaaloey/pinterest-clon" target="_blank" class="text-dark text-decoration-none">Clon de Pinterest</a>
+                </h3>
+                <ul class="d-flex list-unstyled mt-auto">
+                  <li class="me-auto">
+                    <img src="assets/clon-pinterest.png" alt="min-image" width="40" height="40"
+                      class="rounded-circle border border-white">
+                  </li>
+                 
+                </ul>
+              </div>
+            </div>
+          </div>
+
+          <div class="col">
+            <div class="img-proyecto2 card card-cover h-59 overflow-hidden text-bg-secondary rounded-4 shadow-lg"
+              >
+              <div class="d-flex flex-column h-100 p-5 pb-3 text-dark text-shadow-1">
+                <h3 class="pt-5 mt-5 mb-4 display-6 lh-1 fw-bold"> 
+                  <a href="https://drive.google.com/file/d/1n6npBm2IFOFQPEyBt4RuQYFN1qYMYFDc/view?usp=sharing" target="_blank" class="text-dark text-decoration-none">Página web de ventas</a>
+                  </h3>
+                <ul class="d-flex list-unstyled mt-auto">
+                  <li class="me-auto">
+                    <img src="assets/CAP.png" alt="min-image" width="40" height="40"
+                      class="rounded-circle border border-white">
+                  </li>
+               
+                </ul>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+    </section>
+
+    <section id="testimonios">
+      <h2 class="pb-2 mb-5 border-bottom">Testimonios</h2>
+      <div id="carouselExampleAutoplaying" class="carousel slide" data-bs-ride="carousel">
+        <div class="carousel-inner">
+          <!-- Card carousel -->
+          <div class="carousel-item active">
+            <div class="d-flex justify-content-center">
+            <div class="card border-0" style="width: 18rem;">
+              <img src="assets/tecchi.jpg" class="rounded-circle card-img-top" alt="...">
+              <div class="card-body text-center">
+                <h5 class="card-title text-center">Mis inicios</h5>
+                <div class="card-header">
+                  Experiencia Propia
+                </div>
+                <p class="card-text text-center">He comenzado mi viaje como desarrollador web, al principio estaba lleno de incertidumbre y dudas. No sabía por dónde empezar y me sentía abrumado por la cantidad de tecnologías y lenguajes de programación disponibles. Sin embargo, decidí tomar el primer paso y me inscribí en un curso en línea de HTML y CSS. A medida que avanzo, me doy cuenta de que la clave para aprender a programar era la práctica constante y la paciencia. El curso de Tecnolochicas Pro me a hecho decidir hacía mi incursión en el desarrollo web. </p>
+              </div>
+            </div>
+            </div>
+          </div>
+          <!-- Card -->
+       
+          <!-- card -->
+          <div class="carousel-item">
+            <div class="d-flex justify-content-center">
+            <div class="card border-0" style="width: 18rem;">
+              <img src="assets/TEQ.png" class="rounded-circle card-img-top" alt="...">
+              <div class="card-body text-center">
+                <h5 class="card-title text-center">Colaboración</h5>
+                <div class="card-header">
+                  By Estefanía Luna
+                </div>
+                <p class="card-text text-center">Hemos tenido la oportunidad de trabajar en varios proyectos y actividades que realmente han demostrado tu gran trabajo en equipo.
+                  Me gusta cómo siempre aportas ideas, lo que hace que el ambiente sea más creativo y divertido.
+                  Además de que es una persona analítica, lo que ayuda a hacer un mejor trabajo</p>
+              </div>
+            </div>
+            </div>
+          </div>
+         
+        </div>
+
+        <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleAutoplaying" data-bs-slide="prev">
+          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Previous</span>
+        </button>
+        <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleAutoplaying" data-bs-slide="next">
+          <span class="carousel-control-next-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Next</span>
+        </button>
+      </div>
+
+      </section>
+
+    <section id="contacto">
+      <div class="container my-5">
+        <div class="p-5 text-center rounded-5" style="background-color:#ECDBBA">
+          
+          <i class="bi bi-envelope-at" style="font-size: 90px;"></i>
+
+          <h1 class="text-body-emphasis">¡Contáctame!</h1>
+          <p class="col-lg-8 mx-auto fs-5 text-muted">
+           Contáctame para participar en un proyecto de desarrollo web!
+          </p>
+          <div class="d-inline-flex gap-2 mb-5">
+           <a href="mail-to:alexachame18@gmail.com">
+            <button class="btn btn-outline-dark btn-lg px-4 rounded-pill type="button"  style=background-color:#C84B31;>
+              Contacto
+            </button>
+          </a>
+          </div>
+        </div>
+      </div>
+
+    </section>
+
+  </main>
+
+
+  <footer class="py-3 my-4">
+    
+    <ul class="nav justify-content-center pb-3 mb-3">
+
+      <li class="nav-item"><a href="#" class="nav-link px-2 text-body-secondary icon-footer">
+      <i class="bi bi-linkedin"></i></a> </li>
+
+      <li class="nav-item">
+      <a href="https://github.com/alexaaloey" target="_blank" 
+      class="nav-link px-2 text-body-secondary icon-footer">
+      <i class="bi bi-github"></i></a> </li>
+
+      <li class="nav-item">
+      <a href="https://www.instagram.com/alexaa_loeey?igsh=MTY5bXdxc2k0aWViaQ==" target="_blank"
+      class="nav-link px-2 text-body-secondary icon-footer">
+      <i class="bi bi-instagram"></i></a> </li>
+      
+    </ul>
+   <p class="text-center text-body-secondary icon-footer"> <a href="https://tecnolochicas.mx/" target="-blank">Tecnolochicas PRO</a></p>
+  </footer>
+
+  <!--TypeWriter-->
+  <script src="https://unpkg.com/typewriter-effect@latest/dist/core.js"></script>
+  <!--ARCHIVO JS-->
+  <script src="main.js"> </script>
+
+
+  <!--SCRIPT BOOTSTRAP-->
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz"
+    crossorigin="anonymous"></script>
+</body>
+
+</html>
